@@ -17,3 +17,9 @@ scrollTopBtn.addEventListener('click', function() {
         behavior: 'smooth'
     });
 });
+
+document.querySelectorAll('.card img').forEach(function(img) {
+    img.addEventListener('click', function() {
+        img.classList.toggle('fullscreen');
+    });
+});
