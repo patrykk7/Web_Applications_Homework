@@ -18,8 +18,25 @@ scrollTopBtn.addEventListener('click', function() {
     });
 });
 
+const closeBtn = document.getElementById('close-btn');
+
+function zamknijZdjecie() {
+    const powiekszoneZdjecie = document.querySelector('.card img.fullscreen');
+    if (powiekszoneZdjecie) {
+        powiekszoneZdjecie.classList.remove('fullscreen');
+    }
+    closeBtn.classList.remove('active');
+}
+
 document.querySelectorAll('.card img').forEach(function(img) {
     img.addEventListener('click', function() {
-        img.classList.toggle('fullscreen');
+        if (img.classList.contains('fullscreen')) {
+            zamknijZdjecie();
+        } else {
+            img.classList.add('fullscreen');
+            closeBtn.classList.add('active');
+        }
     });
 });
+
+closeBtn.addEventListener('click', zamknijZdjecie);
