@@ -1,7 +1,7 @@
 Nie z tego świata "Supernatural"
 
 Strona internetowa poświęcona kultowemu serialowi fantasy „Supernatural”.
-Projekt zawiera sekcję informacyjną o fabule serialu, galerię głównych postaci 
+Projekt zawiera sekcję informacyjną o fabule serialu, galerię głównych postaci
 z możliwością powiększania zdjęć oraz zestaw najciekawszych faktów i ciekawostek o uniwersum Winchesterów.
 
 Projekt został wdrożony i jest dostępny publicznie za pośrednictwem GitHub Pages:
